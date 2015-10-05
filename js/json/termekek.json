@@ -1,0 +1,26 @@
+    [
+        {
+            "name": "Estélyi cipő",
+            "desc": "alkalmi cipő hölgyeknek",
+            "price": "11000",
+            "img": "http://keptaram.hu/kt/7/3451/rAPGoCGpduvPbCxVKPvn/piros-szaten-cipo.jpg"
+        },
+        {
+            "name": "Alkalmi cipő",
+            "desc": "erős cipő a hétköznapokra",
+            "price": "11000",
+            "img": "http://keptaram.hu/kt/7/3451/rAPGoCGpduvPbCxVKPvn/piros-szaten-cipo.jpg"
+        },
+        {
+            "name": "Sport cipő",
+            "desc": "kikapcsolódáshoz",
+            "price": "11000",
+            "img": "http://keptaram.hu/kt/7/3451/rAPGoCGpduvPbCxVKPvn/piros-szaten-cipo.jpg"
+        },
+        {
+            "name": "Motoros cipő",
+            "desc": "véd a sérülésektől",
+            "price": "11000",
+            "img": "http://keptaram.hu/kt/7/3451/rAPGoCGpduvPbCxVKPvn/piros-szaten-cipo.jpg"
+        }
+    ]

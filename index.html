@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="cipobolt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Free themes for Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link id="main-css" rel="stylesheet" href="lib/bootswatch/cerulean/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="lib/bootswatch/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/bootswatch/assets/css/custom.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body id="home">
+
+    <ng-include src="'templates/navbar.html'"></ng-include>
+
+    <div class="splash">
+        <div class="container"></div>
+    </div>
+
+    <div class="section-tout" data-ng-include="'templates/testimonial.html'"></div>
+
+    <div class="section-preview" data-ng-controller="termekCtrl">
+        <div class="container">
+            <div class="row">
+
+                <ng-include src="'templates/termek.html'"></ng-include>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container" data-ng-include="'templates/footer.html'"></div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="lib/bootswatch/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/bootswatch/assets/js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
